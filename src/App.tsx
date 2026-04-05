@@ -1,9 +1,6 @@
 import Header from './components/Header';
 import EventHero from './components/EventHero';
 import TicketSelector from './components/TicketSelector';
-import EventDescription from './components/EventDescription';
-import SectorInfo from './components/SectorInfo';
-import EventLocation from './components/EventLocation';
 
 function App() {
   return (
@@ -17,9 +14,13 @@ function App() {
             <div className="lg:hidden">
               <TicketSelector />
             </div>
-            <EventDescription />
-            <SectorInfo />
-            <EventLocation />
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <img
+                src="/descricao.jpg"
+                alt="Descrição do Evento"
+                className="w-full h-auto"
+              />
+            </div>
           </div>
 
           <div className="hidden lg:block lg:col-span-1">

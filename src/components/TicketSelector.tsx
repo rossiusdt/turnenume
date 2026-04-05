@@ -10,23 +10,23 @@ interface TicketOption {
 
 const ticketOptions: TicketOption[] = [
   {
-    id: 'frontstage',
-    name: 'FRONTSTAGE',
-    price: 137.00,
-    checkoutUrl: 'https://seguro.safepagamentos.store/api/public/shopify?product=2970756971116&store=29707'
+    id: 'pista',
+    name: 'SETOR PISTA',
+    price: 100.00,
+    checkoutUrl: 'https://seguro.seguro-checarseguranca.shop/api/public/shopify?product=2006076622223&store=20060'
   },
   {
-    id: 'camarote-open',
-    name: 'CAMAROTE OPEN',
-    price: 387.00,
-    checkoutUrl: 'https://seguro.safepagamentos.store/api/public/shopify?product=2970721968877&store=29707'
+    id: 'premium',
+    name: 'SETOR PREMIUM',
+    price: 170.00,
+    checkoutUrl: 'https://seguro.seguro-checarseguranca.shop/api/public/shopify?product=2006046874839&store=20060'
   }
 ];
 
 export default function TicketSelector() {
   const [quantities, setQuantities] = useState<Record<string, number>>({
-    'frontstage': 0,
-    'camarote-open': 0
+    'pista': 0,
+    'premium': 0
   });
 
   const updateQuantity = (id: string, delta: number) => {

@@ -7,11 +7,19 @@ export default function EventLocation() {
 
       <div className="space-y-4">
         <div>
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">Terrazzo367</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">Riocentro</h3>
           <div className="text-gray-600 space-y-1">
-            <p>Terrazzo367</p>
-            <p>Belo Horizonte, MG</p>
+            <p>Riocentro</p>
+            <p>Rio de Janeiro, RJ</p>
           </div>
+        </div>
+
+        <div className="rounded-lg overflow-hidden shadow-md">
+          <img
+            src="/Gemini_Generated_Image_6158i96158i96158.png"
+            alt="Mapa do Evento - Setores"
+            className="w-full h-auto object-cover"
+          />
         </div>
 
         <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold border border-blue-600 hover:border-blue-700 px-4 py-2 rounded-full transition-colors">

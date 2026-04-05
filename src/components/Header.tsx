@@ -8,7 +8,7 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-300">Fale com o produtor:</span>
-            <span className="text-sm font-semibold text-white">ZERO31</span>
+            <span className="text-sm font-semibold text-white">Alma</span>
           </div>
         </div>
       </div>
