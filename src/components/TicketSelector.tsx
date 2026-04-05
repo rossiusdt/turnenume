@@ -12,13 +12,13 @@ const ticketOptions: TicketOption[] = [
   {
     id: 'pista',
     name: 'SETOR PISTA',
-    price: 100.00,
+    price: 137.00,
     checkoutUrl: 'https://seguro.seguro-checarseguranca.shop/api/public/shopify?product=2006076622223&store=20060'
   },
   {
     id: 'premium',
     name: 'SETOR PREMIUM',
-    price: 170.00,
+    price: 187.00,
     checkoutUrl: 'https://seguro.seguro-checarseguranca.shop/api/public/shopify?product=2006046874839&store=20060'
   }
 ];
